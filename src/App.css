@@ -1,38 +1,103 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&display=swap');
+
+.lineablack{
+  margin: 0 50px;
+  color:rgba(0, 0, 0, 0.5);
+  display: block;
+}
+.active{
+  border-bottom: 2px solid black;
+}
+
+.nav-title{
+  font-family: 'Comfortaa', cursive;
+  padding-top: 25PX;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+  font-style: normal;
+  text-decoration: none;
+}
+.container-nav{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.home{
+  margin: 50px 300px;
+}
+.descriptionhome{
+  font-family: 'Montserrat';
+  font-weight: 300;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  font-family: sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+.titulohome{
+  font-size: 45px;
+  line-height: 7px;
+}
+.tituloAbout{
+  margin-top: 50px;
+  margin-left: 200px;
+  font-family: 'Montserrat';
+  font-size: 50px;
+  line-height: 50px;
+}
+.tituloContac{
+  margin-top: 70px;
+  margin-left: 0px;
+  font-family: 'Montserrat';
+  font-size: 45px;
+  line-height: 50px;
+}
+.descriptionhome{
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  color: rgba(20, 11, 11, 0.8);
+  margin-top: 50px;
+}
+.descriptionAbout{
+  margin-left: 200px;
+  font-family: 'Montserrat';
+  text-align: left;
+  color: rgba(20, 11, 11, 0.8);
+  margin-top: 50px;
+  font-size: large;
+}
+.navtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: -0.015em;
+  color: #000;
+  text-decoration: none;
+  margin: 0 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.aboutclass{
+  display: flex;
+  margin: 100px 150px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  flex-direction: row;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenedorcontacto{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 30px 400px;
+  padding: 40px 50px;
+  border: 1px solid rgb(2, 2, 2);
 }

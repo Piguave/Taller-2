@@ -1,0 +1,54 @@
+.container {
+  background-color: rgb(80, 80, 80);
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.container2 {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+.titulo{
+  border-radius: 20px;
+  background-color: rgb(208, 202, 202);
+  margin-top: 20px;
+  text-align: center;
+}
+.boton{
+  margin: 15px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.inputdata{
+  padding: 15px;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+.cuadrado {
+  width:25vh;
+  border-radius: 20px;
+  max-width:80px;
+  height:15vh;
+  max-height:80px;
+  margin: 15px;
+  padding-top: 10px;
+  background:rgb(80, 80, 80);
+}
+p {
+  display:block;
+  max-width: 75;
+  min-width: 75;
+  text-align: center;
+  color: aliceblue;
+}
