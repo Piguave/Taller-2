@@ -1,0 +1,47 @@
+.App {
+    text-align: center;
+  }
+
+  .imc-progress{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+  }
+   
+  .card{
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(145, 144, 144);
+    display: inline-flex; 
+    padding: 20px;
+    border-radius: 20px;
+    margin: 60px; 
+    box-shadow: rgb(1, 1, 1) 0px 0px 10px ;
+
+  }
+  
+  .normal{
+    color:rgb(0, 255, 47)
+  }
+  .sobrepeso{
+    color: rgb(237, 237, 90);
+  }
+  .obesidadI{
+    color:rgb(255, 136, 0);
+  }
+  .obesidadII{
+    color:rgb(147, 55, 22);
+  }
+  .obesidadIII{
+    color:rgb(146, 27, 27);
+  }
