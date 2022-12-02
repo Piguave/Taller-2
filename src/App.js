@@ -16,6 +16,7 @@ function App() {
       <div className="App">
         <Nav_B />
         <Routes>
+          <Route exact path="/*" element={<Home/>}/>
           <Route exact path="/components/Home" element={<Home/>} />
           <Route exact path="/components/Imc" element ={<Imc/>} />
           <Route exact path="/components/Age" element ={<Age/>} />
